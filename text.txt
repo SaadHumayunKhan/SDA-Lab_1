@@ -1,0 +1,7 @@
+Polymorphism
+   is a key concept in object-oriented programming (OOP) that allows objects of different classes to be treated as objects of a common superclass. It enables a single method or function to operate on different types of objects, with each object responding in its own way. In simpler terms, polymorphism allows one interface or common class to be used for multiple behaviors.
+
+Explanation:
+   In polymorphism, a common method is defined in a base class or interface, and each subclass provides its own unique implementation of that method. This allows for flexibility and reusability, as a single method can work with different object types, each executing its own behavior at runtime.
+
+For example, if you have a PaymentMethod class, you can have different payment types like CreditCard and PayPal, each implementing their own version of the makePayment() method. Polymorphism allows you to call makePayment() on any PaymentMethod object without knowing the specific type, and the correct method will be executed based on the object type.
